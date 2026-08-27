@@ -1,4 +1,4 @@
-# Olá! Eu sou o Pablo Marco👋
+#Pablo Marco 👨‍💻
 
 💻 Estudante de Desenvolvimento de Sistemas e entusiasta por tecnologia, programação e criação de projetos.
 
@@ -11,7 +11,7 @@ Ainda estou no começo da minha jornada como desenvolvedor, então este GitHub �
 
 <p align="left"> <img src="https://skillicons.dev/icons?i=javascript,cs,html,css,react,nodejs,git,github,vscode" /> </p>
 ---
-## 🧑‍💻 Um pouco sobre mim
+## Um pouco sobre mim 👋
 
 Gosto de entender como as coisas funcionam e, principalmente, de tentar transformar ideias em algo que realmente funcione.
 
