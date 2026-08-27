@@ -2,7 +2,7 @@
 <table>
 <tr>
 <td width="65%" valign="top">
-💻 Estudante de Desenvolvimento de Sistemas e entusiasta por tecnologia, programação e criação de projetos.
+Estudante de Desenvolvimento de Sistemas e entusiasta por tecnologia, programação e criação de projetos.
 
 Atualmente estou aprendendo e experimentando diferentes áreas da programação, principalmente **JavaScript, C#, React e Node.js**.
 
