@@ -15,15 +15,6 @@ Ainda estou no começo da minha jornada como desenvolvedor, então este GitHub �
 
 Gosto de entender como as coisas funcionam e, principalmente, de tentar transformar ideias em algo que realmente funcione.
 
-No momento, estou focado em:
-
-* 📚 Evoluir minha lógica de programação
-* 💻 Aprender cada vez mais sobre desenvolvimento Web
-* ⚙️ Praticar JavaScript e C#
-* ⚛️ Estudar React e Node.js
-* 🗄️ Aprender sobre bancos de dados e APIs
-* 🚀 Criar projetos para colocar meus conhecimentos em prática
-
 ---
 
 ## 🧑‍💻 Um pouco sobre mim
@@ -32,11 +23,11 @@ Gosto de entender como as coisas funcionam e, principalmente, de tentar transfor
 
 No momento, estou focado em:
 
-* 📚 Evoluir minha lógica de programação
-* 💻 Aprender cada vez mais sobre desenvolvimento Web
-* ⚙️ Praticar JavaScript e C#
-* ⚛️ Estudar React e Node.js
-* 🗄️ Aprender sobre bancos de dados e APIs
+* 📚 Lógica de programação
+* 💻 Desenvolvimento Web
+* ⚙️ JavaScript e C#
+* ⚛️ React e Node.js
+* 🗄️ Bancos de dados e APIs
 * 🚀 Criar projetos para colocar meus conhecimentos em prática
 
 ---
