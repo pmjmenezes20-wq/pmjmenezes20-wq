@@ -20,8 +20,9 @@ Ainda estou no começo da minha jornada como desenvolvedor, então este GitHub �
 ---
 ## 🛠️ Tecnologias que estou estudando
 
-<p align="left"> <img src="https://skillicons.dev/icons?i=javascript,cs,html,css,react,nodejs,git,github,vscode" /> </p>
-
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=javascript,cs,html,css,react,nodejs,git,github,vscode,visualstudio" />
+</p>
 No momento estou focado em:
 
 * 📚 Lógica de programação
@@ -29,6 +30,7 @@ No momento estou focado em:
 * ⚙️ JavaScript e C#
 * ⚛️ React e Node.js
 * 🗄️ Bancos de dados e APIs
+* 🔌Internet e Protocolos
 * 🚀 Criar projetos para colocar meus conhecimentos em prática
 
 
