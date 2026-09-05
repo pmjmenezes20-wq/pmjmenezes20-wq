@@ -21,7 +21,7 @@ Ainda estou no começo da minha jornada como desenvolvedor, então este GitHub �
 ## 🛠️ Tecnologias que estou estudando
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=javascript,cs,html,css,react,nodejs,git,github,vscode,visualstudio" />
+  <img src="https://skillicons.dev/icons?i=javascript,cs,html,css,react,nodejs,mongodb,git,github,vscode,visualstudio" />
 </p>
 No momento estou focado em:
 
