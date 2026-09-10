@@ -3,7 +3,7 @@
 <tr>
  
 <td width="65%" valign="top">
-**Estudante de Desenvolvimento de Sistemas.**
+**Estudante** **de** **Desenvolvimento** **de** **Sistemas.**
 
 Atualmente estou aprendendo diferentes áreas da programação, **sendo:**
 <p align="left">
