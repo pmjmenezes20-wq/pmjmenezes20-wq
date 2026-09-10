@@ -5,7 +5,7 @@
 <td width="65%" valign="top">
 Estudante de Desenvolvimento de Sistemas.
 
-Atualmente estou aprendendo e experimentando diferentes áreas da programação, **principalmente:**
+Atualmente estou aprendendo diferentes áreas da programação, **sendo:**
 <p align="left">
   <img src="https://skillicons.dev/icons?i=javascript,cs,html,css,react,linux"/>
 </p>
