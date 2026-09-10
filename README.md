@@ -23,21 +23,6 @@ Atualmente estou aprendendo diferentes áreas da programação, **sendo:**
 </tr>
 </table>
 
-No momento estou focado em:
-
-* 📚 Lógica de programação
-* 💻 Desenvolvimento Web
-* ⚙️ JavaScript e C#
-* ⚛️ React e Node.js
-* 🗄️ Bancos de dados e APIs
-* 🔌Internet e Protocolos
-* 🚀 Criar projetos para colocar meus conhecimentos em prática
-
-
-
-
----
-
 <p align="center">
   Obrigado por passar por aqui! 🚀
 </p>
