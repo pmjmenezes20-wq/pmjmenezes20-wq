@@ -2,11 +2,10 @@
 <table>
 <tr>
 <td width="65%" valign="top">
-Estudante de Desenvolvimento de Sistemas e entusiasta por tecnologia, programação e criação de projetos.
+Estudante de Desenvolvimento de Sistemas.
 
 Atualmente estou aprendendo e experimentando diferentes áreas da programação, principalmente **JavaScript, C#, React e Node.js**.
 
-Ainda estou no começo da minha jornada como desenvolvedor, então este GitHub é, acima de tudo, um lugar para **registrar minha evolução, meus projetos e tudo aquilo que estou aprendendo pelo caminho**.
 </td>
 
 <td width="35%" align="center">
@@ -18,7 +17,6 @@ Ainda estou no começo da minha jornada como desenvolvedor, então este GitHub �
 </table>
 
 ---
-## 🛠️ Tecnologias que estou estudando
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=javascript,cs,html,css,react,nodejs,mongodb,git,github,vscode,visualstudio,linux" />
