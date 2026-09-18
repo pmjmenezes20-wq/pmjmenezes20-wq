@@ -3,57 +3,52 @@
 <defs>
 
   <filter id="glow">
-    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feGaussianBlur stdDeviation="4" result="blur"/>
     <feMerge>
       <feMergeNode in="blur"/>
       <feMergeNode in="SourceGraphic"/>
     </feMerge>
   </filter>
 
-  <filter id="softGlow">
-    <feGaussianBlur stdDeviation="2"/>
-  </filter>
+  <clipPath id="typing">
+    <rect x="165" y="45" width="0" height="80">
+
+```
+  <animate
+    attributeName="width"
+    values="0;70;140;210;280;350;420;490;560;630;700;700;0"
+    keyTimes="0;0.06;0.12;0.18;0.24;0.30;0.36;0.42;0.48;0.54;0.60;0.75;1"
+    dur="6s"
+    repeatCount="indefinite"
+  />
+
+</rect>
+```
+
+  </clipPath>
 
 </defs>
 
-<!-- BACKGROUND -->
+<!-- FUNDO -->
 
-<rect width="900" height="180" fill="#050505"/>
-
-<!-- RED ATMOSPHERE -->
-
-<ellipse
-cx="450"
-cy="90"
-rx="300"
-ry="55"
-fill="#ff0000"
-opacity="0.045"
-filter="url(#glow)"
-
->
-
-<animate
- attributeName="opacity"
- values="0.02;0.07;0.025;0.06;0.02"
- dur="3s"
- repeatCount="indefinite"
+<rect
+width="900"
+height="180"
+fill="#050505"
 />
 
-</ellipse>
-
-<!-- GLOW BEHIND NAME -->
+<!-- GLOW VERMELHO ATRÁS -->
 
 <text
 x="450"
-y="108"
+y="110"
 text-anchor="middle"
 font-family="JetBrains Mono, monospace"
 font-size="52"
 font-weight="700"
 letter-spacing="4"
 fill="#ff2b2b"
-opacity="0.5"
+opacity="0.45"
 filter="url(#glow)"
 
 >
@@ -62,18 +57,20 @@ PABLO MARCO
 
 <animate
  attributeName="opacity"
- values="0.25;0.65;0.3;0.55;0.25"
+ values="0.2;0.5;0.25;0.55;0.2"
  dur="2.5s"
  repeatCount="indefinite"
 />
 
 </text>
 
-<!-- TYPING NAME -->
+<!-- TEXTO DIGITADO -->
+
+<g clip-path="url(#typing)">
 
 <text
 x="450"
-y="108"
+y="110"
 text-anchor="middle"
 font-family="JetBrains Mono, monospace"
 font-size="52"
@@ -83,69 +80,60 @@ fill="#ffffff"
 
 >
 
-  <tspan>
-
 ```
 PABLO MARCO
-
-<animate
-  attributeName="opacity"
-  values="0;0;0;1;1;1;0;0"
-  dur="5s"
-  repeatCount="indefinite"
-/>
 ```
 
-  </tspan>
+  </text>
 
-</text>
+</g>
 
 <!-- CURSOR -->
 
 <rect
-x="690"
-y="67"
+x="168"
+y="68"
 width="4"
-height="50"
+height="48"
 fill="#ff2b2b"
 filter="url(#glow)"
 
 >
 
 <animate
+ attributeName="x"
+ values="168;238;308;378;448;518;588;658;728;798;798;168"
+ keyTimes="0;0.06;0.12;0.18;0.24;0.30;0.36;0.42;0.48;0.54;0.75;1"
+ dur="6s"
+ repeatCount="indefinite"
+/>
+
+<animate
  attributeName="opacity"
- values="1;0;1;0;1"
+ values="1;1;0;1;0;1;1"
  dur="0.8s"
  repeatCount="indefinite"
 />
 
 </rect>
 
-<!-- SUBTLE RED LINE -->
+<!-- LINHA INFERIOR -->
 
 <rect
 x="300"
-y="135"
+y="140"
 width="300"
 height="2"
-rx="1"
 fill="#ff2b2b"
 opacity="0.6"
-filter="url(#softGlow)"
+filter="url(#glow)"
 
 >
 
 <animate
- attributeName="width"
- values="0;300;300;0"
- dur="5s"
- repeatCount="indefinite"
-/>
-
-<animate
- attributeName="x"
- values="450;300;300;450"
- dur="5s"
+ attributeName="opacity"
+ values="0.2;0.7;0.3;0.7;0.2"
+ dur="2s"
  repeatCount="indefinite"
 />
 
