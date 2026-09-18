@@ -1,0 +1,142 @@
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <clipPath id="typing">
+    <rect x="165" y="45" width="0" height="80">
+
+```
+  <animate
+    attributeName="width"
+    values="0;70;140;210;280;350;420;490;560;630;700;700;0"
+    keyTimes="0;0.06;0.12;0.18;0.24;0.30;0.36;0.42;0.48;0.54;0.60;0.75;1"
+    dur="6s"
+    repeatCount="indefinite"
+  />
+
+</rect>
+```
+
+  </clipPath>
+
+</defs>
+
+<!-- FUNDO -->
+
+<rect
+width="900"
+height="180"
+fill="#050505"
+/>
+
+<!-- GLOW VERMELHO ATRÁS -->
+
+<text
+x="450"
+y="110"
+text-anchor="middle"
+font-family="JetBrains Mono, monospace"
+font-size="52"
+font-weight="700"
+letter-spacing="4"
+fill="#ff2b2b"
+opacity="0.45"
+filter="url(#glow)"
+
+>
+
+PABLO MARCO
+
+<animate
+ attributeName="opacity"
+ values="0.2;0.5;0.25;0.55;0.2"
+ dur="2.5s"
+ repeatCount="indefinite"
+/>
+
+</text>
+
+<!-- TEXTO DIGITADO -->
+
+<g clip-path="url(#typing)">
+
+<text
+x="450"
+y="110"
+text-anchor="middle"
+font-family="JetBrains Mono, monospace"
+font-size="52"
+font-weight="700"
+letter-spacing="4"
+fill="#ffffff"
+
+>
+
+```
+PABLO MARCO
+```
+
+  </text>
+
+</g>
+
+<!-- CURSOR -->
+
+<rect
+x="168"
+y="68"
+width="4"
+height="48"
+fill="#ff2b2b"
+filter="url(#glow)"
+
+>
+
+<animate
+ attributeName="x"
+ values="168;238;308;378;448;518;588;658;728;798;798;168"
+ keyTimes="0;0.06;0.12;0.18;0.24;0.30;0.36;0.42;0.48;0.54;0.75;1"
+ dur="6s"
+ repeatCount="indefinite"
+/>
+
+<animate
+ attributeName="opacity"
+ values="1;1;0;1;0;1;1"
+ dur="0.8s"
+ repeatCount="indefinite"
+/>
+
+</rect>
+
+<!-- LINHA INFERIOR -->
+
+<rect
+x="300"
+y="140"
+width="300"
+height="2"
+fill="#ff2b2b"
+opacity="0.6"
+filter="url(#glow)"
+
+>
+
+<animate
+ attributeName="opacity"
+ values="0.2;0.7;0.3;0.7;0.2"
+ dur="2s"
+ repeatCount="indefinite"
+/>
+
+</rect>
+
+</svg>
