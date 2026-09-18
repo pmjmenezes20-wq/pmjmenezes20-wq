@@ -1,0 +1,276 @@
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+  <radialGradient id="aura">
+    <stop offset="0%" stop-color="#ff2b2b" stop-opacity="0.55"/>
+    <stop offset="45%" stop-color="#ff2b2b" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#ff2b2b" stop-opacity="0"/>
+  </radialGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="8"/>
+  </filter>
+
+  <filter id="textGlow">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+</defs>
+
+<!-- BACKGROUND -->
+
+<rect width="900" height="180" fill="#050505"/>
+
+<!-- MAIN AURA -->
+
+<ellipse
+cx="450"
+cy="90"
+rx="350"
+ry="75"
+fill="url(#aura)"
+filter="url(#glow)"
+
+>
+
+<animate
+ attributeName="rx"
+ values="300;370;315;360;300"
+ dur="3s"
+ repeatCount="indefinite"
+/>
+
+<animate
+ attributeName="ry"
+ values="55;82;62;78;55"
+ dur="3s"
+ repeatCount="indefinite"
+/>
+
+<animate
+ attributeName="opacity"
+ values="0.45;0.9;0.55;0.8;0.45"
+ dur="3s"
+ repeatCount="indefinite"
+/>
+
+</ellipse>
+
+<!-- ENERGY RINGS -->
+
+<ellipse
+cx="450"
+cy="90"
+rx="290"
+ry="55"
+fill="none"
+stroke="#ff2b2b"
+stroke-width="2"
+opacity="0.25"
+
+>
+
+<animate
+ attributeName="rx"
+ values="250;340;250"
+ dur="2.4s"
+ repeatCount="indefinite"
+/>
+
+<animate
+ attributeName="ry"
+ values="45;70;45"
+ dur="2.4s"
+ repeatCount="indefinite"
+/>
+
+</ellipse>
+
+<ellipse
+cx="450"
+cy="90"
+rx="250"
+ry="45"
+fill="none"
+stroke="#ff4a2a"
+stroke-width="1"
+opacity="0.35"
+
+>
+
+<animate
+ attributeName="rx"
+ values="220;300;220"
+ dur="1.8s"
+ repeatCount="indefinite"
+/>
+
+<animate
+ attributeName="ry"
+ values="38;60;38"
+ dur="1.8s"
+ repeatCount="indefinite"
+/>
+
+</ellipse>
+
+<!-- ENERGY PARTICLES -->
+
+<g fill="#ff2b2b" filter="url(#textGlow)">
+
+  <circle cx="180" cy="82" r="3">
+    <animate
+      attributeName="cy"
+      values="82;65;82"
+      dur="1.5s"
+      repeatCount="indefinite"
+    />
+    <animate
+      attributeName="opacity"
+      values="0.2;1;0.2"
+      dur="1.5s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <circle cx="720" cy="105" r="3">
+    <animate
+      attributeName="cy"
+      values="105;82;105"
+      dur="1.8s"
+      repeatCount="indefinite"
+    />
+    <animate
+      attributeName="opacity"
+      values="0.2;1;0.2"
+      dur="1.8s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <circle cx="245" cy="125" r="2">
+    <animate
+      attributeName="cy"
+      values="125;105;125"
+      dur="1.3s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <circle cx="655" cy="62" r="2">
+    <animate
+      attributeName="cy"
+      values="62;45;62"
+      dur="1.6s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+</g>
+
+<!-- RED ENERGY STREAKS -->
+
+<g
+fill="none"
+stroke="#ff2b2b"
+stroke-linecap="round"
+filter="url(#textGlow)"
+
+>
+
+  <path d="M150 120 Q250 50 330 75" stroke-width="2">
+    <animate
+      attributeName="stroke-dasharray"
+      values="0 300;150 150;300 0"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+  </path>
+
+  <path d="M570 105 Q650 135 750 65" stroke-width="2">
+    <animate
+      attributeName="stroke-dasharray"
+      values="0 300;150 150;300 0"
+      dur="2.3s"
+      repeatCount="indefinite"
+    />
+  </path>
+
+</g>
+
+<!-- NAME GLOW -->
+
+<text
+x="450"
+y="108"
+text-anchor="middle"
+font-family="JetBrains Mono, monospace"
+font-size="52"
+font-weight="700"
+letter-spacing="4"
+fill="#ff2b2b"
+opacity="0.55"
+filter="url(#textGlow)"
+
+>
+
+PABLO MARCO
+
+<animate
+ attributeName="opacity"
+ values="0.3;0.75;0.4;0.7;0.3"
+ dur="2.2s"
+ repeatCount="indefinite"
+/> </text>
+
+<!-- MAIN NAME -->
+
+<text
+x="450"
+y="108"
+text-anchor="middle"
+font-family="JetBrains Mono, monospace"
+font-size="52"
+font-weight="700"
+letter-spacing="4"
+fill="#ffffff"
+
+>
+
+PABLO MARCO </text>
+
+<!-- ENERGY LINE -->
+
+<rect
+x="300"
+y="137"
+width="300"
+height="2"
+rx="1"
+fill="#ff2b2b"
+opacity="0.7"
+
+>
+
+<animate
+ attributeName="width"
+ values="100;300;100"
+ dur="2s"
+ repeatCount="indefinite"
+/>
+
+<animate
+ attributeName="x"
+ values="400;300;400"
+ dur="2s"
+ repeatCount="indefinite"
+/>
+
+</rect>
+
+</svg>
