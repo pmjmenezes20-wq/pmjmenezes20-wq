@@ -1,4 +1,8 @@
-#Pablo Marco 👨‍💻
+<div align="center">
+
+<img src="./assets/assets/pablo-aura.svg" width="800" alt="Pablo Marco">
+
+</div>
 <table>
 <tr>
  
