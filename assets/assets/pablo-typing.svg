@@ -1,0 +1,154 @@
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <filter id="softGlow">
+    <feGaussianBlur stdDeviation="2"/>
+  </filter>
+
+</defs>
+
+<!-- BACKGROUND -->
+
+<rect width="900" height="180" fill="#050505"/>
+
+<!-- RED ATMOSPHERE -->
+
+<ellipse
+cx="450"
+cy="90"
+rx="300"
+ry="55"
+fill="#ff0000"
+opacity="0.045"
+filter="url(#glow)"
+
+>
+
+<animate
+ attributeName="opacity"
+ values="0.02;0.07;0.025;0.06;0.02"
+ dur="3s"
+ repeatCount="indefinite"
+/>
+
+</ellipse>
+
+<!-- GLOW BEHIND NAME -->
+
+<text
+x="450"
+y="108"
+text-anchor="middle"
+font-family="JetBrains Mono, monospace"
+font-size="52"
+font-weight="700"
+letter-spacing="4"
+fill="#ff2b2b"
+opacity="0.5"
+filter="url(#glow)"
+
+>
+
+PABLO MARCO
+
+<animate
+ attributeName="opacity"
+ values="0.25;0.65;0.3;0.55;0.25"
+ dur="2.5s"
+ repeatCount="indefinite"
+/>
+
+</text>
+
+<!-- TYPING NAME -->
+
+<text
+x="450"
+y="108"
+text-anchor="middle"
+font-family="JetBrains Mono, monospace"
+font-size="52"
+font-weight="700"
+letter-spacing="4"
+fill="#ffffff"
+
+>
+
+  <tspan>
+
+```
+PABLO MARCO
+
+<animate
+  attributeName="opacity"
+  values="0;0;0;1;1;1;0;0"
+  dur="5s"
+  repeatCount="indefinite"
+/>
+```
+
+  </tspan>
+
+</text>
+
+<!-- CURSOR -->
+
+<rect
+x="690"
+y="67"
+width="4"
+height="50"
+fill="#ff2b2b"
+filter="url(#glow)"
+
+>
+
+<animate
+ attributeName="opacity"
+ values="1;0;1;0;1"
+ dur="0.8s"
+ repeatCount="indefinite"
+/>
+
+</rect>
+
+<!-- SUBTLE RED LINE -->
+
+<rect
+x="300"
+y="135"
+width="300"
+height="2"
+rx="1"
+fill="#ff2b2b"
+opacity="0.6"
+filter="url(#softGlow)"
+
+>
+
+<animate
+ attributeName="width"
+ values="0;300;300;0"
+ dur="5s"
+ repeatCount="indefinite"
+/>
+
+<animate
+ attributeName="x"
+ values="450;300;300;450"
+ dur="5s"
+ repeatCount="indefinite"
+/>
+
+</rect>
+
+</svg>
